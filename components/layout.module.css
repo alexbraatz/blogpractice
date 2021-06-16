@@ -1,0 +1,14 @@
+/* To use CSS Modules, the CSS file name must end with .module.css. */
+
+.container {
+	max-width: 36rem;
+	padding: 0 1rem;
+	margin: 3rem auto 6rem;
+}
+
+/* To use this container class inside components/layout.js, you need to:
+
+Import the CSS file and assign a name to it, like styles
+Use styles.container as the className */
+
+
