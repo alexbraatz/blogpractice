@@ -72,6 +72,11 @@ export default function Layout({ children, home }) {
 	)
 }
 
+// meta tags (like og:image), which are used to describe a page's content
+// Boolean home prop which will adjust the size of the title and the image
+// “Back to home” link at the bottom if home is false
+// Added images with next/image, which are preloaded with the priority attribute
+
 // if you take a look at the HTML in your browser’s devtools, you’ll notice that the div rendered by 
 // the Layout component has a class name that looks like layout_container__...:
 
